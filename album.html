@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Album</title>
+<style>
+    body{
+        background-color: #333;
+        text-align: center;
+        margin-top:100px;
+    }
+    figure{
+        height:0;
+        margin:0;
+    }
+    img{
+        border:20px solid #ddd;
+        box-shadow: 0 0 10px 5px #111;
+        
+    }
+    img:hover{
+        border-color: #fff
+    }
+    .left-30{
+    transform: translateX(300px) rotate(30deg);
+
+    }
+    .left-30:hover{
+        transform: translateX(200px) rotate(300deg);
+        transition: 0.5s;
+        
+    }
+    
+    .right-20{
+        transform: translateX(200px) rotate(-300deg);
+    }
+   .left-10{
+       transform: translateY(300px) rotate(-100deg);
+    }
+   .right-40{
+       transform: translateY(150px) rotate(200deg);
+   }
+     .right-40:hover{
+         transform: translateY(150px) rotate(-100deg);
+         transition: 0.7s;
+     }
+
+</style>
+</head>
+<body>
+    <main id="content">
+        <figure><img class="right-20" src="https://picsum.photos/600/400?image21" alt=""></figure>
+        <figure><img class="left-10" src="https://picsum.photos/400/500?image28" alt=""></figure>
+        <figure><img class="right-40" src="https://picsum.photos/300/300?image23" alt=""></figure>
+        <figure><img src="https://picsum.photos/400/400?image29" alt=""></figure>
+        <figure><img class="left-30" src="https://picsum.photos/300/500?image27" alt=""></figure>
+    </main>
+
+</body>
+</html>
